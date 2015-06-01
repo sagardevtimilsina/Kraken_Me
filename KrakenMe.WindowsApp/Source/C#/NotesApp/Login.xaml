@@ -40,38 +40,44 @@
             </Grid>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="498" Margin="180,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="996">
-            <Grid x:Name="Box1" Background="#FFFCBD01" Margin="10,32,533,366">
+            <Grid x:Name="Box1" Background="#FFFCBD01" Margin="12,179,594,271">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="46"/>
                     <ColumnDefinition Width="355*"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Center" FontWeight="ExtraBold" FontFamily="Segoe UI" FontSize="34" Foreground="Black" Margin="15,0,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Username" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI" FontSize="34" Foreground="Black" Margin="15,0,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
             </Grid>
-            <Grid x:Name="TopText" Background="White" Margin="502,32,10,366" >
-                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Your name" VerticalAlignment="Center"
-                           FontWeight="Light" FontFamily="Segoe UI" FontSize="26" Foreground="Black" Margin="15,0,0,0"/>
-            </Grid>
-            <Grid x:Name="Box2" Background="#FFFCBD01" Margin="10,170,533,228">
+            <Grid x:Name="TopText" Background="White" Margin="447,179,65,271" />
+            <Grid x:Name="Box2" Background="#FFFCBD01" Margin="12,254,594,196">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="46"/>
                     <ColumnDefinition Width="355*"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password" VerticalAlignment="Center" FontWeight="ExtraBold" FontFamily="Segoe UI" FontSize="34" Foreground="Black" Margin="15,0,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI" FontSize="34" Foreground="Black" Margin="15,0,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
             </Grid>
-            <Grid x:Name="Password" Background="White" Margin="502,170,10,228" >
-                <TextBox HorizontalAlignment="Right" Text="********" VerticalAlignment="Center"   Width="491" Height="48" 
-                        Style="{StaticResource TextBox1}" HorizontalContentAlignment="Right" Padding="9,4,0,0" FontSize="26" 
-                         FontWeight="Light"/>    
-                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="*******" VerticalAlignment="Center" FontWeight="Light" FontFamily="Segoe UI" FontSize="26" Foreground="Black" Margin="15,0,0,0"/>
-            </Grid>
-            <Grid x:Name="Box3" Background="#FFFCBD01" Margin="686,310,35,88" Tapped="Login_Tapped">
+            <Grid x:Name="Password" Background="White" Margin="447,254,65,196" />
+            <Grid x:Name="Box3" Background="#FFFCBD01" Margin="656,326,65,114" Tapped="Login_Click">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="46"/>
                     <ColumnDefinition Width="355*"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Login
-                          " VerticalAlignment="Center" FontWeight="ExtraBold" FontFamily="Segoe UI" 
+                          " VerticalAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI" 
                            FontSize="34" Foreground="Black" Margin="15,0,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+            </Grid>
+            <TextBox x:Name="txtPassword" HorizontalAlignment="Right"  VerticalAlignment="Center"   Width="484" Height="48" 
+            	Style="{StaticResource TextBox1}" HorizontalContentAlignment="Right" Padding="9,4,0,0" FontSize="26" 
+            	FontWeight="Light" Margin="0,254,65,196"/>
+            <TextBox x:Name="txtUsername" HorizontalAlignment="Right"  VerticalAlignment="Center"   Width="484" Height="48" 
+            	Style="{StaticResource TextBox1}" HorizontalContentAlignment="Right" Padding="9,4,0,0" FontSize="26" 
+            	FontWeight="Light" Margin="0,179,65,271"/>
+            <Grid x:Name="Box3_Copy" Background="#FFFCBD01" Margin="360,326,361,114" Tapped="Register_Click">
+            	<Grid.ColumnDefinitions>
+            		<ColumnDefinition Width="46"/>
+            		<ColumnDefinition Width="355*"/>
+            	</Grid.ColumnDefinitions>
+            	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Register" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI" 
+            		FontSize="34" Foreground="Black" Margin="15,0,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
             </Grid>
 
         </Grid>

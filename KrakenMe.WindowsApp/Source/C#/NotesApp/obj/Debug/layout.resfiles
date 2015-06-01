@@ -40,6 +40,7 @@ Common\StandardStyles.xaml
 HubPage.xaml
 Login.xaml
 OverduePage.xaml
+Register.xaml
 SettingsFlyouts\AboutUs.xaml
 SettingsFlyouts\ContactUs.xaml
 SettingsFlyouts\PrivacyPolicy.xaml

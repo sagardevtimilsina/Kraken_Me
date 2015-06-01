@@ -1,226 +1,237 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DEMIGOD</Machine>
-    <WindowsUser>Sandeep</WindowsUser>
+    <Machine>USER</Machine>
+    <WindowsUser>Sagar</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>61997f1a-85b9-453e-ae01-ea22096fe1e8</PackageIdentityName>
-    <RegisteredManifestChecksum>86CD60A57CF92DA2C7A6D09B4EB8C0BAF37E718F356E5B828044A9C3C42ED51D</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>408AF4F2CF643D79F9715FAB39BBD578AD95BC7EE5553788F551DF29612BBD43</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>61997f1a-85b9-453e-ae01-ea22096fe1e8_1.0.0.0_neutral__yps17xarsp2at</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>61997f1a-85b9-453e-ae01-ea22096fe1e8_yps17xarsp2at!App</RegisteredUserModeAppID>
     <RegisteredPackageID>61997f1a-85b9-453e-ae01-ea22096fe1e8</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=test</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-26T00:08:03.616</Modified>
+      <Modified>2015-06-01T20:28:25.687</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\NotesApp.exe">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\NotesApp.exe">
       <PackagePath>NotesApp.exe</PackagePath>
-      <Modified>2015-05-27T21:35:27.010</Modified>
+      <Modified>2015-06-01T20:28:45.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\bg.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\DAL\bin\Debug\DAL.dll">
+      <PackagePath>DAL.dll</PackagePath>
+      <Modified>2015-06-01T20:07:58.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\bg.png">
       <PackagePath>Assets\bg.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.908</Modified>
+      <Modified>2015-06-01T14:23:48.686</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Bell.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Bell.png">
       <PackagePath>Assets\HubPage\Bell.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.106</Modified>
+      <Modified>2015-06-01T14:23:48.469</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\CallRight.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\CallRight.png">
       <PackagePath>Assets\HubPage\CallRight.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.110</Modified>
+      <Modified>2015-06-01T14:23:48.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\CalterPic1.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\CalterPic1.png">
       <PackagePath>Assets\HubPage\CalterPic1.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.112</Modified>
+      <Modified>2015-06-01T14:23:48.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic1.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic1.png">
       <PackagePath>Assets\HubPage\HupPic1.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.135</Modified>
+      <Modified>2015-06-01T14:23:48.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic2.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic2.png">
       <PackagePath>Assets\HubPage\HupPic2.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.166</Modified>
+      <Modified>2015-06-01T14:23:48.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic3.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic3.png">
       <PackagePath>Assets\HubPage\HupPic3.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.172</Modified>
+      <Modified>2015-06-01T14:23:48.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic4.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic4.png">
       <PackagePath>Assets\HubPage\HupPic4.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.177</Modified>
+      <Modified>2015-06-01T14:23:48.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic5.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic5.png">
       <PackagePath>Assets\HubPage\HupPic5.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.205</Modified>
+      <Modified>2015-06-01T14:23:48.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic6.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic6.png">
       <PackagePath>Assets\HubPage\HupPic6.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.210</Modified>
+      <Modified>2015-06-01T14:23:48.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic7.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic7.png">
       <PackagePath>Assets\HubPage\HupPic7.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.212</Modified>
+      <Modified>2015-06-01T14:23:48.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic8.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\HupPic8.png">
       <PackagePath>Assets\HubPage\HupPic8.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.214</Modified>
+      <Modified>2015-06-01T14:23:48.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\late.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\late.png">
       <PackagePath>Assets\HubPage\late.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.508</Modified>
+      <Modified>2015-06-01T14:23:48.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon1.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon1.png">
       <PackagePath>Assets\HubPage\Noticon1.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.248</Modified>
+      <Modified>2015-06-01T14:23:48.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon2.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon2.png">
       <PackagePath>Assets\HubPage\Noticon2.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.260</Modified>
+      <Modified>2015-06-01T14:23:48.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon3.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon3.png">
       <PackagePath>Assets\HubPage\Noticon3.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.276</Modified>
+      <Modified>2015-06-01T14:23:48.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon4.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Noticon4.png">
       <PackagePath>Assets\HubPage\Noticon4.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.304</Modified>
+      <Modified>2015-06-01T14:23:48.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\NotPic.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\NotPic.png">
       <PackagePath>Assets\HubPage\NotPic.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.226</Modified>
+      <Modified>2015-06-01T14:23:48.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Pic12.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Pic12.png">
       <PackagePath>Assets\HubPage\Pic12.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.402</Modified>
+      <Modified>2015-06-01T14:23:48.590</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Right.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Right.png">
       <PackagePath>Assets\HubPage\Right.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.435</Modified>
+      <Modified>2015-06-01T14:23:48.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Star.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Star.png">
       <PackagePath>Assets\HubPage\Star.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.452</Modified>
+      <Modified>2015-06-01T14:23:48.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Star2.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Star2.png">
       <PackagePath>Assets\HubPage\Star2.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.467</Modified>
+      <Modified>2015-06-01T14:23:48.606</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Star3.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\HubPage\Star3.png">
       <PackagePath>Assets\HubPage\Star3.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.483</Modified>
+      <Modified>2015-06-01T14:23:48.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-11T19:17:16.534</Modified>
+      <Modified>2015-06-01T14:23:48.625</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\MainLogo.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\MainLogo.png">
       <PackagePath>Assets\MainLogo.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.591</Modified>
+      <Modified>2015-06-01T14:23:48.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-11T19:17:16.628</Modified>
+      <Modified>2015-06-01T14:23:48.653</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SplashScreen.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SplashScreen.scale-180.png">
       <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-11T19:17:16.695</Modified>
+      <Modified>2015-06-01T14:23:48.658</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-11T19:17:16.699</Modified>
+      <Modified>2015-06-01T14:23:48.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.511</Modified>
+      <Modified>2015-06-01T14:23:48.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.594</Modified>
+      <Modified>2015-06-01T14:23:48.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
-      <Modified>2015-05-11T19:17:16.099</Modified>
+      <Modified>2015-06-01T14:23:48.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\widelogo.png">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\widelogo.png">
       <PackagePath>Assets\widelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-11T19:17:16.924</Modified>
+      <Modified>2015-06-01T14:23:48.689</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\BigLiveTile1.jpg">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\BigLiveTile1.jpg">
       <PackagePath>Assets\BigLiveTile1.jpg</PackagePath>
-      <Modified>2015-05-11T19:17:16.077</Modified>
+      <Modified>2015-06-01T14:23:48.453</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\BigLiveTile2.jpg">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\BigLiveTile2.jpg">
       <PackagePath>Assets\BigLiveTile2.jpg</PackagePath>
-      <Modified>2015-05-11T19:17:16.082</Modified>
+      <Modified>2015-06-01T14:23:48.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SmallLiveTile1.jpg">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SmallLiveTile1.jpg">
       <PackagePath>Assets\SmallLiveTile1.jpg</PackagePath>
-      <Modified>2015-05-11T19:17:16.611</Modified>
+      <Modified>2015-06-01T14:23:48.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SmallLiveTile2.jpg">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\Assets\SmallLiveTile2.jpg">
       <PackagePath>Assets\SmallLiveTile2.jpg</PackagePath>
-      <Modified>2015-05-11T19:17:16.625</Modified>
+      <Modified>2015-06-01T14:23:48.650</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:16.031</Modified>
+      <Modified>2015-06-01T14:23:48.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\CalenderPage.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\CalenderPage.xaml">
       <PackagePath>CalenderPage.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:16.955</Modified>
+      <Modified>2015-06-01T14:23:48.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:17.080</Modified>
+      <Modified>2015-06-01T14:23:48.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\HubPage.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\HubPage.xaml">
       <PackagePath>HubPage.xaml</PackagePath>
-      <Modified>2015-05-27T21:07:00.413</Modified>
+      <Modified>2015-06-01T14:23:49.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\Login.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\Register.xaml">
+      <PackagePath>Register.xaml</PackagePath>
+      <Modified>2015-06-01T20:24:30.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\Login.xaml">
       <PackagePath>Login.xaml</PackagePath>
-      <Modified>2015-05-27T21:35:21.739</Modified>
+      <Modified>2015-06-01T19:24:06.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\OverduePage.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\OverduePage.xaml">
       <PackagePath>OverduePage.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:17.299</Modified>
+      <Modified>2015-06-01T14:23:49.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\AboutUs.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\AboutUs.xaml">
       <PackagePath>SettingsFlyouts\AboutUs.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:17.345</Modified>
+      <Modified>2015-06-01T14:23:49.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\ContactUs.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\ContactUs.xaml">
       <PackagePath>SettingsFlyouts\ContactUs.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:17.380</Modified>
+      <Modified>2015-06-01T14:23:49.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\PrivacyPolicy.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\PrivacyPolicy.xaml">
       <PackagePath>SettingsFlyouts\PrivacyPolicy.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:17.380</Modified>
+      <Modified>2015-06-01T14:23:49.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\TermsAndConditions.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\TermsAndConditions.xaml">
       <PackagePath>SettingsFlyouts\TermsAndConditions.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:17.395</Modified>
+      <Modified>2015-06-01T14:23:49.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\TaskPage.xaml">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\TaskPage.xaml">
       <PackagePath>TaskPage.xaml</PackagePath>
-      <Modified>2015-05-11T19:17:17.426</Modified>
+      <Modified>2015-06-01T14:23:49.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sandeep\Downloads\Project\Windows_Kraken_project\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sagar\Documents\GitHub\Kraken_Me\KrakenMe.WindowsApp\Source\C#\NotesApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-26T00:08:03.402</Modified>
+      <Modified>2015-06-01T20:28:25.484</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
