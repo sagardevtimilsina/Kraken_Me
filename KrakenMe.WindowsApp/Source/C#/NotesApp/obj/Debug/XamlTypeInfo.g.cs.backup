@@ -118,19 +118,21 @@ namespace NotesApp.KrakenMe_WindowsApp_XamlTypeInfo
 
         private object Activate_2_HubPage() { return new global::KrakenMe.WindowsApp.HubPage(); }
 
-        private object Activate_3_Login() { return new global::KrakenMe.WindowsApp.Login(); }
+        private object Activate_3_Register() { return new global::KrakenMe.WindowsApp.Register(); }
 
-        private object Activate_4_OverduePage() { return new global::KrakenMe.WindowsApp.OverduePage(); }
+        private object Activate_4_Login() { return new global::KrakenMe.WindowsApp.Login(); }
 
-        private object Activate_5_AboutUs() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.AboutUs(); }
+        private object Activate_5_OverduePage() { return new global::KrakenMe.WindowsApp.OverduePage(); }
 
-        private object Activate_6_ContactUs() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.ContactUs(); }
+        private object Activate_6_AboutUs() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.AboutUs(); }
 
-        private object Activate_7_PrivacyPolicy() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.PrivacyPolicy(); }
+        private object Activate_7_ContactUs() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.ContactUs(); }
 
-        private object Activate_8_TermsAndConditions() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.TermsAndConditions(); }
+        private object Activate_8_PrivacyPolicy() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.PrivacyPolicy(); }
 
-        private object Activate_9_TaskPage() { return new global::KrakenMe.WindowsApp.TaskPage(); }
+        private object Activate_9_TermsAndConditions() { return new global::KrakenMe.WindowsApp.SettingsFlyouts.TermsAndConditions(); }
+
+        private object Activate_10_TaskPage() { return new global::KrakenMe.WindowsApp.TaskPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -166,45 +168,51 @@ namespace NotesApp.KrakenMe_WindowsApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "KrakenMe.WindowsApp.Register":
+                userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.Register), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
+                userType.Activator = Activate_3_Register;
+                xamlType = userType;
+                break;
+
             case "KrakenMe.WindowsApp.Login":
                 userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.Login), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
-                userType.Activator = Activate_3_Login;
+                userType.Activator = Activate_4_Login;
                 xamlType = userType;
                 break;
 
             case "KrakenMe.WindowsApp.OverduePage":
                 userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.OverduePage), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
-                userType.Activator = Activate_4_OverduePage;
+                userType.Activator = Activate_5_OverduePage;
                 xamlType = userType;
                 break;
 
             case "KrakenMe.WindowsApp.SettingsFlyouts.AboutUs":
                 userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.SettingsFlyouts.AboutUs), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
-                userType.Activator = Activate_5_AboutUs;
+                userType.Activator = Activate_6_AboutUs;
                 xamlType = userType;
                 break;
 
             case "KrakenMe.WindowsApp.SettingsFlyouts.ContactUs":
                 userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.SettingsFlyouts.ContactUs), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
-                userType.Activator = Activate_6_ContactUs;
+                userType.Activator = Activate_7_ContactUs;
                 xamlType = userType;
                 break;
 
             case "KrakenMe.WindowsApp.SettingsFlyouts.PrivacyPolicy":
                 userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.SettingsFlyouts.PrivacyPolicy), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
-                userType.Activator = Activate_7_PrivacyPolicy;
+                userType.Activator = Activate_8_PrivacyPolicy;
                 xamlType = userType;
                 break;
 
             case "KrakenMe.WindowsApp.SettingsFlyouts.TermsAndConditions":
                 userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.SettingsFlyouts.TermsAndConditions), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
-                userType.Activator = Activate_8_TermsAndConditions;
+                userType.Activator = Activate_9_TermsAndConditions;
                 xamlType = userType;
                 break;
 
             case "KrakenMe.WindowsApp.TaskPage":
                 userType = new global::NotesApp.KrakenMe_WindowsApp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KrakenMe.WindowsApp.TaskPage), GetXamlTypeByName("KrakenMe.WindowsApp.Common.LayoutAwarePage"));
-                userType.Activator = Activate_9_TaskPage;
+                userType.Activator = Activate_10_TaskPage;
                 xamlType = userType;
                 break;
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DAL.Repository;
+using Helper;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
@@ -27,15 +30,37 @@ namespace KrakenMe.WindowsApp
             this.InitializeComponent();
         }
 
-        //For navigating to a Login page
-        private void Login_Tapped(object sender, TappedRoutedEventArgs e)
+        //For navigating to a Login page    
+        private void Login_Click(object sender, TappedRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(CalenderPage));
+            try
+            {
+                KrakenRepo _repo = new KrakenRepo();
+                Helper.AppVariables.KrakenID = _repo.Login(txtUsername.Text, txtPassword.Text);
+                                
+                if (AppVariables.IsAuthenticated())
+                {                    
+                    Frame.Navigate(typeof(HubPage));
+                }
+                else
+                {
+                    // show error message
+                    Helper.DialogHelper.ShowMessageBox("Invalid Authentication Details. Please login with proper Username and Password. !!");
+                }
+            }
+            catch(Exception ex)
+            {
+                //show exception.. 
+                Helper.DialogHelper.ShowMessageBox(ex.ToString());
+            }
+            
         }
 
-
-
-
+        // 
+        private void Register_Click(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Register));
+        }
 
 
 

@@ -82,7 +82,7 @@ namespace KrakenMe.WindowsApp
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                if (!rootFrame.Navigate(typeof(HubPage), "AllGroups"))
+                if (!rootFrame.Navigate(typeof(Login), "AllGroups"))
                 {
                     throw new Exception("Failed to create initial page");
                 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Helper;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -24,6 +25,15 @@ namespace KrakenMe.WindowsApp
         public HubPage()
         {
             this.InitializeComponent();
+            this.Loaded += HubPage_Loaded;
+        }
+
+        void HubPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (!(AppVariables.IsAuthenticated()))
+            {
+                Frame.Navigate(typeof(Login));
+            }
         }
 
         /// <summary>
